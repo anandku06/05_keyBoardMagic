@@ -1,7 +1,7 @@
-const insert = document.querySelector('#insert')
+const insert = document.querySelector("#insert");
 
-window.addEventListener('keydown', (e) => {
-    insert.innerHTML = `
+window.addEventListener("keydown", (e) => {
+  insert.innerHTML = `
     <div class="color">
         <table>
             <tr>
@@ -16,5 +16,5 @@ window.addEventListener('keydown', (e) => {
             </tr>
         </table>
     </div>
-    `
-})
+    `;
+});
